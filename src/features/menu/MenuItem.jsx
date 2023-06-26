@@ -8,7 +8,6 @@ function MenuItem({ pizza }) {
   const dispacth = useDispatch();
 
   function handleAddToCart() {
-    console.log('Add to cart:', id);
     const newItem = {
       pizzaId: id,
       name,
